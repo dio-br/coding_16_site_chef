@@ -19403,3 +19403,39 @@ section:first-of-type .row .col-5 span {
   position: relative;
   top: 30px;
 }
+
+.tes {
+  background-image: url("../images/testimonials_background.jpg");
+  padding-bottom: 30px;
+}
+
+.tes .row .col-2 img {
+  height: 150px;
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+.tes .row .temoignage {
+  border: solid white 1px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.our-contact .contact {
+  width: 400px;
+  background-color: #b32e40;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.our-contact .contact .jojo i {
+  font-size: 35px;
+}
+
+.our-contact .contact .jojo hr {
+  background-color: white;
+  width: 80%;
+}
