@@ -19244,8 +19244,8 @@ a.text-rouge:hover, a.text-rouge:focus {
 
 body {
   margin: 0;
-  background-image: url("");
-  font-family: ubuntu;
+  background-image: url("../images/main_bg.jpg");
+  font-family: Ubuntu-Regular;
 }
 
 h1, h2, h3 {
@@ -19345,4 +19345,61 @@ section:first-of-type .row .col-5 span {
   font-weight: bold;
   color: #dc3545;
   background-color: #e4dede;
+}
+
+.chef {
+  background-image: url("../images/team_background.jpg");
+}
+
+.chef .container {
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.formu {
+  background-color: white;
+  margin: 30px 10%;
+  border: 1px solid lightgrey;
+}
+
+.formu .book {
+  background-image: url("../images/book_table_bg.jpg");
+}
+
+.formu .book form {
+  margin: 0 auto;
+  width: 65%;
+  border-radius: 5%;
+}
+
+.formu .card .card-1 .menu1 {
+  background-image: url("../images/blog_img1.jpg");
+  width: 300px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.formu .blog {
+  padding-top: 50px;
+}
+
+.formu .blog .col-6 img {
+  position: relative;
+  border-radius: 18px;
+  border: 5px solid grey;
+  width: 300px;
+}
+
+.formu .blog .col-6 button {
+  position: absolute;
+  bottom: 80px;
+}
+
+.formu .blog .col-6 .lorem {
+  padding-left: 130px;
+  position: relative;
+  top: 30px;
 }
