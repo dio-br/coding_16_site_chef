@@ -1,17 +1,39 @@
 section
-    .coin
-        display: flex
-        justify-content: space-between
-        margin-top: 40px
-        h2
-            font-family: Courgette-Regular
-            span
-                color: #c91d34
-    // .bell
-    //     justify-content: center    
-    .story
-        h2
-            font-family: Courgette-Regular
-            color: #B32A3A
-        .storytext
-            width: 400px
+    &:first-of-type
+        background-color: white
+        margin: 30px 10% 
+        border: 1px solid lightgrey      
+        .container-fluid
+            padding: 20px 200px
+        
+        .row
+            // position: absolute
+            margin: 50px 50px
+            .col-2
+                margin-top: 20px 
+                // border-bottom: 1px solid grey
+                &:hover
+                    border-right: solid 2px red
+                    padding-top: 5px
+                div
+                    padding-top: 20px
+                    i   
+                        font-size: 50px
+                        margin-left: 15px
+                        &:hover
+                            color: $red
+                    span
+                        font-family: courgette
+                        font-size: 20px
+                        
+            .col-5
+                position: relative
+                top: 20px
+                border-bottom: dotted 0.5px grey
+                img
+                    height: 100px
+                    weight: 100px
+                span
+                    font-weight: bold
+                    color: $red
+                    background-color: #e4dede

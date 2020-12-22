@@ -19242,24 +19242,31 @@ a.text-rouge:hover, a.text-rouge:focus {
   }
 }
 
-header .navbar-collapse {
-  flex-grow: 0;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+body {
+  margin: 0;
+  background-image: url("");
+  font-family: ubuntu;
 }
 
-header .navbar-collapse ul li {
-  color: white;
+h1, h2, h3 {
+  font-family: Courgette-Regular;
 }
 
-header .navbar-collapse ul li a {
-  color: white;
-  font-size: 15px;
-  text-decoration: none;
-  padding: 15px;
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.thespruceeats.com/thmb/dAHkxoecQpQidRSrzEQZHqQoMsg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/perfectgreensalad2500-5993ab28c412440011db26df.jpg");
+  height: 900px;
+  background-size: cover;
 }
 
-header .navbar-collapse ul li a:hover {
+header .logo-2 {
+  display: none;
+}
+
+header .navbar ul li {
+  padding: 0 30px;
+}
+
+header .navbar ul li a:hover {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   color: rouge;
@@ -19267,84 +19274,75 @@ header .navbar-collapse ul li a:hover {
   cursor: pointer;
 }
 
-header .text h5 {
-  font-size: 35px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 25px;
-  font-family: Courgette-Regular;
-  position: absolute;
-  z-index: 1;
-  padding-top: 180px;
-  padding-left: 22rem;
-  text-align: center;
-  color: white;
+header .container {
+  margin: 190px 60px;
 }
 
-header .text h5 .bold {
-  font-size: 46px;
+header .container .btn {
+  border-radius: 50px;
 }
 
-header .text h5 .red {
-  color: #c91d34;
-  font-size: 46px;
+header #carouselExampleIndicators ol li {
+  border-radius: 100%;
+  padding: 5px;
+  width: 0;
+  height: 0;
 }
 
-header .boutton {
-  font-size: 30px;
-  z-index: 1;
-  position: absolute;
-  padding-top: 61vh;
-  padding-left: 27rem;
+section:first-of-type {
+  background-color: white;
+  margin: 30px 10%;
+  border: 1px solid lightgrey;
 }
 
-header .boutton .btn {
-  border: 10px solid none;
-  border-radius: 30px;
-  padding: 10px 30px;
+section:first-of-type .container-fluid, section:first-of-type .container-sm, section:first-of-type .container-md, section:first-of-type .container-lg, section:first-of-type .container-xl {
+  padding: 20px 200px;
 }
 
-header .carousel-item {
-  height: 100vh;
-  min-height: 300px;
-  background: no-repeat center center scroll;
-  background-size: cover;
+section:first-of-type .row {
+  margin: 50px 50px;
 }
 
-header .carousel-item .d-block {
-  filter: brightness(10%);
-  -webkit-filter: brightness(10%);
+section:first-of-type .row .col-2 {
+  margin-top: 20px;
 }
 
-header .carousel-item .carousel-caption {
-  padding-bottom: 270px;
+section:first-of-type .row .col-2:hover {
+  border-right: solid 2px red;
+  padding-top: 5px;
 }
 
-header .carousel-indicators li {
-  border-radius: 50%;
-  width: 12px;
-  height: 12px;
+section:first-of-type .row .col-2 div {
+  padding-top: 20px;
 }
 
-section .coin {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
+section:first-of-type .row .col-2 div i {
+  font-size: 50px;
+  margin-left: 15px;
 }
 
-section .coin h2 {
-  font-family: Courgette-Regular;
+section:first-of-type .row .col-2 div i:hover {
+  color: #dc3545;
 }
 
-section .coin h2 span {
-  color: #c91d34;
+section:first-of-type .row .col-2 div span {
+  font-family: courgette;
+  font-size: 20px;
 }
 
-section .story h2 {
-  font-family: Courgette-Regular;
-  color: #B32A3A;
+section:first-of-type .row .col-5 {
+  position: relative;
+  top: 20px;
+  border-bottom: dotted 0.5px grey;
 }
 
-section .story .storytext {
-  width: 400px;
+section:first-of-type .row .col-5 img {
+  height: 100px;
+  weight: 100px;
+}
+
+section:first-of-type .row .col-5 span {
+  font-weight: bold;
+  color: #dc3545;
+  background-color: #e4dede;
 }
