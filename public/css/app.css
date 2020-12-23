@@ -19245,6 +19245,8 @@ a.text-rouge:hover, a.text-rouge:focus {
 body {
   background-image: url("../images/main_bg.jpg");
   font-family: Ubuntu-Regular;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 h1, h2, h3 {
@@ -19475,7 +19477,7 @@ footer .end {
   }
   body .story {
     width: fit-content;
-    margin: 20px 115px;
+    margin: 20px 145px;
   }
   body .story .row {
     display: block;
@@ -19530,5 +19532,19 @@ footer .end {
   section .story .row {
     display: block;
     margin: 0;
+  }
+  .chef {
+    width: 100%;
+  }
+  .chef .photo {
+    flex-direction: column;
+  }
+  .tes .row {
+    flex-direction: column;
+  }
+  .tes .row .col-4 .temoignage {
+    width: max-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
