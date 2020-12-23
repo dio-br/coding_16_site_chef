@@ -19243,7 +19243,6 @@ a.text-rouge:hover, a.text-rouge:focus {
 }
 
 body {
-  margin: 0;
   background-image: url("../images/main_bg.jpg");
   font-family: Ubuntu-Regular;
 }
@@ -19462,22 +19461,74 @@ footer .end {
 }
 
 @media screen and (max-width: 760px) {
-  header {
-    height: 100%;
-    width: 100%;
+  body {
+    font-size: 12px;
   }
-  header nav ul {
+  body header {
+    width: fit-content;
+  }
+  body header h1 {
+    font-size: 14px;
+  }
+  body header nav ul {
     display: none;
   }
-  :first-of-type .row {
+  body .story {
+    width: fit-content;
+    margin: 20px 115px;
+  }
+  body .story .row {
     display: block;
     margin: 0;
   }
-  .chef {
-    width: 90%;
-    margin-left: 65px;
+  body .chef {
+    width: 100%;
+    margin: 20px 160px;
   }
-  .chef .photo {
+  body .chef .photo {
     flex-direction: column;
+  }
+  body .formu {
+    width: 100%;
+    margin: 20px 158px;
+  }
+  body .formu .d-flex {
+    padding-bottom: 10px;
+  }
+  body .formu .row {
+    display: flex;
+  }
+  body .formu .row .col-6 button {
+    display: none;
+  }
+  body .formu .row .col-6 .lorem {
+    padding-left: 0;
+  }
+  body .tes {
+    width: fit-content;
+    margin-left: 75px;
+  }
+  body .tes .row .col-2 img {
+    display: none;
+  }
+  body .our-contact .d-flex {
+    margin-left: 170px;
+  }
+  body .our-contact .container .contact {
+    margin-left: 130px;
+  }
+  body footer {
+    width: 183%;
+  }
+}
+
+@media screen and (min-width: 761px) and (max-width: 991px) {
+  section .story {
+    width: fit-content;
+    margin: 20px 115px;
+  }
+  section .story .row {
+    display: block;
+    margin: 0;
   }
 }
