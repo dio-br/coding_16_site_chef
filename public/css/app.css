@@ -19256,6 +19256,7 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.thespruceeats.com/thmb/dAHkxoecQpQidRSrzEQZHqQoMsg=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/perfectgreensalad2500-5993ab28c412440011db26df.jpg");
   height: 900px;
   background-size: cover;
+  position: relative;
 }
 
 header .logo-2 {
@@ -19335,18 +19336,18 @@ section:first-of-type .row .col-2 div span {
   font-size: 20px;
 }
 
-section:first-of-type .row .col-5 {
+section:first-of-type .row .col-lg-5 {
   position: relative;
   top: 20px;
   border-bottom: dotted 0.5px grey;
 }
 
-section:first-of-type .row .col-5 img {
+section:first-of-type .row .col-lg-5 img {
   height: 100px;
   weight: 100px;
 }
 
-section:first-of-type .row .col-5 span {
+section:first-of-type .row .col-lg-5 span {
   font-weight: bold;
   color: #dc3545;
   background-color: #e4dede;
@@ -19458,4 +19459,25 @@ footer .all .container .row .last button .btn {
 
 footer .end {
   height: 75px;
+}
+
+@media screen and (max-width: 760px) {
+  header {
+    height: 100%;
+    width: 100%;
+  }
+  header nav ul {
+    display: none;
+  }
+  :first-of-type .row {
+    display: block;
+    margin: 0;
+  }
+  .chef {
+    width: 90%;
+    margin-left: 65px;
+  }
+  .chef .photo {
+    flex-direction: column;
+  }
 }
