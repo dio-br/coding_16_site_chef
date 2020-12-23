@@ -19299,6 +19299,11 @@ section:first-of-type .container-fluid, section:first-of-type .container-sm, sec
   padding: 20px 200px;
 }
 
+section:first-of-type .center img {
+  width: fit-content;
+  margin: 0 auto;
+}
+
 section:first-of-type .row {
   margin: 50px 50px;
 }
@@ -19429,6 +19434,7 @@ section:first-of-type .row .col-5 span {
   padding: 10px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .our-contact .contact .jojo i {
@@ -19438,4 +19444,18 @@ section:first-of-type .row .col-5 span {
 .our-contact .contact .jojo hr {
   background-color: white;
   width: 80%;
+}
+
+footer .all {
+  background-image: url("../images/footer_background.jpg");
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer .all .container .row .last button .btn {
+  border: 1px solide white;
+}
+
+footer .end {
+  height: 75px;
 }
